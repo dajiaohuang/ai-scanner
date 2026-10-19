@@ -99,7 +99,7 @@ A flat string-to-string map of HTTP headers added to every request in the browse
 
 ### Playwright `storage_state` (`auth.storage_state`)
 
-A Playwright [`storageState`](https://playwright.dev/docs/api/class-browsercontext#browser-context-storage-state) object (cookies + `localStorage`/`sessionStorage` origins) passed directly to `browser.newContext({ storageState: ... })`.
+A Playwright [`storageState`](https://playwright.dev/docs/api/class-browsercontext#browser-context-storage-state) object (cookies and `localStorage` origins; it does not include `sessionStorage`) passed directly to `browser.newContext({ storageState: ... })`.
 
 ```json
 "storage_state": {

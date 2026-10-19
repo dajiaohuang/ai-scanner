@@ -1,1 +1,1 @@
-Rails.application.config.version = "0.0.1"
+Rails.application.config.version = ENV.fetch("APP_VERSION", "0.0.1")

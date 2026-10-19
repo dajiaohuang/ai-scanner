@@ -25,7 +25,7 @@ See the full [Featured Vulnerabilities guide](https://0din-ai.github.io/docs/get
 
 ## Features
 
-- **179 community probes** across 35 vulnerability families, aligned with the [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **189 community probes** across 35 vulnerability families, aligned with the [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - **Multi-target scanning** — test API-based LLMs and browser-based chat UIs
 - **Scheduled and on-demand scans** with configurable recurrence
 - **Attack Success Rate (ASR)** scoring with trend tracking across scan runs
